@@ -1,0 +1,56 @@
+{
+  "topic": "Solid-state batteries for electric vehicles: promise and obstacles",
+  "checks": {
+    "unique_domains": {
+      "required": 3,
+      "found_in_research": 5,
+      "domains": [
+        "atomfair.com",
+        "carbuzz.com",
+        "electricvehicletalks.com",
+        "en.wikipedia.org",
+        "next10insights.com"
+      ],
+      "cited_domains": [
+        "atomfair.com",
+        "carbuzz.com",
+        "electricvehicletalks.com",
+        "en.wikipedia.org"
+      ],
+      "pass": true
+    },
+    "short_quotes": {
+      "required": 2,
+      "verified_short_quotes": 4,
+      "quotes_over_10_words": 0,
+      "pass": true
+    },
+    "references_section": {
+      "present": true,
+      "agent_wrote_it_itself": true,
+      "pass": true
+    },
+    "citations_resolve": {
+      "cited": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "unresolved": [],
+      "pass": true
+    },
+    "paragraph_count": {
+      "required": "5-8",
+      "found": 6,
+      "pass": true
+    },
+    "logs_created": {
+      "path": "research_outputs/logs/tool_logs.json",
+      "pass": true
+    }
+  },
+  "passed": 6,
+  "total": 6,
+  "overall_pass": true
+}
